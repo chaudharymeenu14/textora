@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <h1>Textora</h1>
+        <p>eidting by our choose</p>
+        <div id="box" contenteditable="true">TYPE HERE ....</div>
+        <br>
+        
+        <button  id="button">download</button>
+   
+
+    <div id="bg-color">
+        <h2>background-color</h2>
+        <button onclick="Bgcolor('red')" style="background-color:red"></button>
+        <button onclick="Bgcolor('green')" style="background-color:green"></button>
+        <button onclick="Bgcolor('pink')" style="background-color:pink"></button>
+        <button onclick="Bgcolor('blue')" style="background-color:blue"></button>
+        <button onclick="Bgcolor('black')" style="background-color:black"></button>
+        <button onclick="Bgcolor('skyblue')" style="background-color:skyblue"></button>
+        <button onclick="Bgcolor('white')" style="background-color:white"></button>
+        <button onclick="Bgcolor('yellow')" style="background-color:yellow"></button>
+         </div>
+
+         <div id="text-style">
+            <h3>Text Color</h3>
+            <button onclick="textcolor('blue')" style="background-color:blue"></button>
+            <button onclick="textcolor('red')" style="background-color:red"></button>
+            <button onclick="textcolor('yellow')" style="background-color:yellow"></button>
+            <button onclick="textcolor('green')" style="background-color:green"></button>
+            <button onclick="textcolor('skyblue')" style="background-color:skyblue"></button>
+            <button onclick="textcolor('pink')" style="background-color:pink"></button>
+            <button onclick="textcolor('black')" style="background-color:black"></button>
+            <button onclick="textcolor('rosybrown')" style="background-color:rosybrown"></button>
+            <button onclick="textcolor('silver')" style="background-color:silver"></button>
+         </div>
+       <div id="font-family">
+       <h4>Font Family</h4>
+
+       <button onclick="Font('Arial')">Arial</button>
+       <button onclick="Font('Georgia')">Georgia</button>
+       <button onclick="Font('Verdana')">Verdana</button>
+       <button onclick="Font('Courier New')">Courier</button>
+       <button onclick="Font('Times New Roman')">Times New Roman</button>
+       <button onclick="Font('cursive')">Cursive</button>
+       </div>
+ </center>
+
+    
+
+</body>
+
+<script>
+    function Bgcolor(Color){
+     document.getElementById("box").style.backgroundColor=Color
+    }
+
+    function textcolor(clr){
+        document.getElementById("box").style.color=clr
+    }
+
+   function Font(font){
+    document.getElementById("box").style.fontFamily = font;
+}
+</script>
+</html>

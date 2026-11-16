@@ -1,0 +1,35 @@
+h1{
+        font-family: Arial, sans-serif;
+        color: blue;
+        text-shadow: 2px 2px 2PX ;
+    }
+    p{
+        color: rgb(1, 1, 1);
+    }
+    #box{
+        height: 400px;
+        width: 400px;
+        border: 1px solid black;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    #button{
+        background-color:white;
+        color: blue;
+    }
+    #bg-color button{
+        border: 1px solid black;
+        border-radius: 50%;
+        height: 25px;
+        width: 25px;
+    }
+
+    #text-style button{
+        border:1px solid black;
+        border-radius: 50%;
+        height:25px;
+        width:25px;
+    }
